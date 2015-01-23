@@ -41,6 +41,7 @@ def checkIfWordExist(word):
 	e = enchant.Dict("en_US")
 	if d.check(word) == False and e.check(word) == False:
 		return False
+gf
 	else:
 		return True
 
