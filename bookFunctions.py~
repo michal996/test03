@@ -29,8 +29,6 @@ def retListOfWords(words):
 	print 'Zakonczono wczytywanie slow...'
 	return listOfWords
 
-# list
-
 def saveListOfWordsToFile(list):
 	f = open(dir + 'text.txt', 'w')
 	for word in list:
